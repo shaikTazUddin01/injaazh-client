@@ -1,0 +1,13 @@
+/* google font (marcellus) */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/* config tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* google font (marcellus) */
+body {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
