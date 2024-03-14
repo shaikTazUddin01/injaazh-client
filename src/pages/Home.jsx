@@ -1,7 +1,11 @@
+import AboutSection from "../component/home/AboutSection";
+import Banner from "../component/home/Banner";
+
 const Home = () => {
     return (
         <div>
-            <h1 className="btn btn-success">this is home page</h1>
+            <Banner></Banner>
+            {/* <AboutSection></AboutSection> */}
         </div>
     );
 };

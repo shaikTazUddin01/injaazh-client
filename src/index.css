@@ -7,7 +7,11 @@
 /* google font (marcellus) */
 body {
     font-family: "Marcellus", serif;
-    font-weight: 400;
+    font-weight: 400,500,600,700,800,900;
     font-style: normal;
+  }
+
+  :root{
+    --primary-color:#c4ef17;
   }
   
