@@ -9,7 +9,7 @@ const AboutSection = () => {
             <div className='mt-16'>
                 <div className='text-white'>
                     <h1>About Injaazh</h1>
-                    <h1 className='text-5xl font-semibold'>CRAFTING DIGITAL <br /><span className='text-[#6b6b6b]'>EXCELLENCE</span></h1>
+                    <h1 className='text-6xl font-semibold'>CRAFTING DIGITAL <br /><span className='text-[#6b6b6b]'>EXCELLENCE</span></h1>
                 </div>
             </div>
         </div>
