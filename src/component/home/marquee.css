@@ -1,9 +1,9 @@
 .marquee01 {
-    transform: rotate(-4.636deg);
+    transform: rotate(-1.636deg);
    /* padding: 28px; */
 }
 .marquee02 {
-    transform: rotate(4.636deg);
+    transform: rotate(5.636deg);
    /* padding: 28px; */
     /* transform: translateX(-1706px);  */
     /* animation: 30.75s linear 0s infinite normal none running marqueeAnimation-4388403; */
