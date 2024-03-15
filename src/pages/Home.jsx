@@ -2,6 +2,7 @@
 import Banner from "../component/home/Banner";
 import Capabilities from "../component/home/Capabilities";
 import CoreService from "../component/home/CoreService";
+import Marquee from "../component/home/Marquee";
 import Target from "../component/home/Target";
 import Testimonial from "../component/home/Testimonial";
 
@@ -14,6 +15,7 @@ const Home = () => {
             <CoreService></CoreService>
             <Testimonial></Testimonial>
             <Capabilities></Capabilities>
+            {/* <Marquee></Marquee> */}
         </div>
     );
 };
