@@ -30,18 +30,18 @@ const Team = () => {
                 slidesPerView={4}
                 // centeredSlides={true}
                 loop={true}
-                autoplay={{
-                    delay: 1500,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 1500,
+                //     disableOnInteraction: false,
+                // }}
 
                 modules={[Autoplay]}
                 className="mySwiper "
             >
-                <SwiperSlide>
-                    <img src={tm_01} alt="" />
-                    <div className="light-layer"></div>
-                    <div className="dark-layer"></div>
+                <SwiperSlide >
+                    <img src={tm_01} alt=""/>
+                    {/* <div className="light-layer"></div> */}
+                    
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={tm_02} alt="" />
