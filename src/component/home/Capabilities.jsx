@@ -5,6 +5,7 @@ import img01 from "../../assets/img_01-1.jpg"
 import img02 from "../../assets/img_02.jpg"
 import img03 from "../../assets/img_03.jpg"
 import img04 from "../../assets/img_04.jpg"
+import Header from "../ReUseAbleHeader/Header";
 
 
 const Capabilities = () => {
@@ -19,11 +20,8 @@ const Capabilities = () => {
       <div className="border-x">
      
         <div className='grid grid-cols-2 gap-10 pt-16 items-center'>
-          <div className='text-white pb-10'>
-            <h1 className="uppercase" >core services</h1>
-            <h1 className='text-6xl font-semibold uppercase' >Discover Oue <br />
-              <span className='text-[#6b6b6b]'>capabilities</span>
-            </h1>
+          <div className=' pb-10'>
+            <Header title={"core services"} subtitle_1st={'Discover Oue '} subtitle_2nd={'capabilities'}></Header>
           </div>
           <div>
             <ul className="uppercase text-[#6f6c6c] flex gap-4 text-xl justify-end font-semibold">
@@ -60,7 +58,7 @@ const Capabilities = () => {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-10 cap_images">
+        <div className="grid grid-cols-2 gap-10 cap_images pb-16">
           {
             activeItem == null &&
             <> 

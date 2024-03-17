@@ -1,14 +1,13 @@
 // icons
 import { MdOutlineWebhook } from "react-icons/md";
+import Header from "../ReUseAbleHeader/Header";
 const CoreService = () => {
     return (
         <div className="max-w-[1300px] mx-auto px-10">
             <div className="border-x py-20">
+
                 <div>
-                    <div className="text-white">
-                        <p className="uppercase">Core Service</p>
-                        <h1 className="text-6xl font-bold">DISCOVER OUR <br /><span className="text-[#676767]">CAPABILITIES</span></h1>
-                    </div>
+                        <Header title={"core services"} subtitle_1st={'Discover Oue '} subtitle_2nd={'capabilities'}></Header>
                     <div>
 
                     </div>

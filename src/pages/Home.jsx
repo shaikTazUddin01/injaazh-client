@@ -4,6 +4,7 @@ import Capabilities from "../component/home/Capabilities";
 import CoreService from "../component/home/CoreService";
 import Marquee from "../component/home/Marquee";
 import Target from "../component/home/Target";
+import Team from "../component/home/Team";
 import Testimonial from "../component/home/Testimonial";
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
             <CoreService></CoreService>
             <Testimonial></Testimonial>
             <Capabilities></Capabilities>
-            {/* <Marquee></Marquee> */}
+            <Marquee></Marquee>
+            <Team></Team>
         </div>
     );
 };

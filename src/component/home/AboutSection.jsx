@@ -1,4 +1,5 @@
 import aboutIcon from '../../assets/b_logo.png'
+import Header from '../ReUseAbleHeader/Header';
 
 const AboutSection = () => {
     return (
@@ -7,10 +8,7 @@ const AboutSection = () => {
                 <img src={aboutIcon} alt="" className='w-[100%]' />
             </div>
             <div className='mt-16'>
-                <div className='text-white'>
-                    <h1>About Injaazh</h1>
-                    <h1 className='text-6xl font-semibold'>CRAFTING DIGITAL <br /><span className='text-[#6b6b6b]'>EXCELLENCE</span></h1>
-                </div>
+                <Header title={'About Injaazh'} subtitle_1st={'CRAFTING DIGITAL '} subtitle_2nd={'EXCELLENCE'}></Header>
             </div>
         </div>
     );
