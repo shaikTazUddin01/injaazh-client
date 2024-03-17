@@ -2,6 +2,7 @@
 import Banner from "../component/home/Banner";
 import Capabilities from "../component/home/Capabilities";
 import CoreService from "../component/home/CoreService";
+import HiredAndAward from "../component/home/HiredAndAward";
 import Marquee from "../component/home/Marquee";
 import Target from "../component/home/Target";
 import Team from "../component/home/Team";
@@ -18,6 +19,7 @@ const Home = () => {
             <Capabilities></Capabilities>
             <Marquee></Marquee>
             <Team></Team>
+            <HiredAndAward></HiredAndAward>
         </div>
     );
 };
