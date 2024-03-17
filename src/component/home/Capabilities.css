@@ -5,5 +5,15 @@
 }
 li {
     cursor: pointer;
-    transition: 0.3s  ; 
+    transition: 0.1s  ease-out; 
+  }
+
+  .cap_images img{
+    filter: grayscale(100%);
+    transition: .7s;
+    
+  }
+  .cap_images img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
   }
