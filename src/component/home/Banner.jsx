@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='relative z-10 '>
             <div className='px-10 max-w-[1300px] mx-auto'>
                 <div className='border border-y-0 py-16'>
-                    <h1 className="text-[96px] font-bold text-white z-20 relative">
+                    <h1 className="text-[96px] font-bold text-white z-20 relative tracking-wide">
                         PASSIONATE WEB <br /><span className="text-[var(--primary-color)]">DESIGN</span> <span className='text-[#9e9d9d]'>AGENCY</span>
                     </h1>
                     <img src={bg01} alt="" className='-mt-20 w-full h-full z-0 object-cover' />

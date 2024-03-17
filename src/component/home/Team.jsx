@@ -20,7 +20,7 @@ const Team = () => {
             <div className="px-10">
                 <div className="border-x">
                     <div className='pt-20 pb-10 text-center'>
-                        <Header title={'our team'} subtitle_1st={'professional team'} subtitle_2nd={'behind us'}></Header>
+                        <Header title={'our team'} subtitle_1st={'professional team'} subtitle_2nd={'behind us'} position={'center'}></Header>
                     </div>
                 </div>
             </div>
