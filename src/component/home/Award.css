@@ -18,6 +18,7 @@
     color: black; /* Changes the text color to black on hover */
     transform: scale(1.1); /* Apply a scale transform to achieve the zoom-out effect */
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .arrow-btn{
