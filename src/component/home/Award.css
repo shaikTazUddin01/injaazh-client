@@ -1,0 +1,40 @@
+
+.award_section {
+    background: transparent;
+    color: white;
+    transition: color .4s, background .4s, transform .4s; /* Transition for color, background, and transform (zoom-out) changes over 0.4 seconds */
+    transform-origin: center; /* Set the transform origin to the center */
+    letter-spacing: 1px;
+}
+.award-icon{
+    color: rgb(237, 237, 5);
+    transition: color .4s;
+}
+.award_section:hover .award-icon{
+    color: black;
+}
+.award_section:hover {
+    background: yellow; /* Changes the background color to yellow on hover */
+    color: black; /* Changes the text color to black on hover */
+    transform: scale(1.1); /* Apply a scale transform to achieve the zoom-out effect */
+    border-radius: 2px;
+}
+
+.arrow-btn{
+    background-color: rgb(33, 33, 34);
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 0%;
+    transition: border-radius 0.5s;
+}
+.award_section:hover .arrow-btn{
+    border-radius: 100%;
+}
+.custom-divider{
+    height: 1px ;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 251, 251);
+    margin-top:7px;
+}

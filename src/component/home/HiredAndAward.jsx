@@ -1,4 +1,5 @@
 import Header from '../ReUseAbleHeader/Header';
+import Award from './Award';
 import './HiredAndAward.css'
 import { BsArrowRight } from "react-icons/bs";
 const HiredAndAward = () => {
@@ -43,7 +44,7 @@ const HiredAndAward = () => {
                 </div>
                 <div className="px-10 ">
                     <div className='border-x min-h-screen'>
-
+<Award></Award>
                     </div>
                 </div>
             </div>
