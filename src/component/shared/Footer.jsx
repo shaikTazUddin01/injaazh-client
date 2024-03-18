@@ -15,7 +15,16 @@ const Footer = () => {
                            <h1 className='text-6xl uppercase font-bold'>Ping us</h1>
                         </div>
                      </div>
-                     <div></div>
+                     <div>
+                        <h3 className='text-xl font-semibold text-[#888888] uppercase'>Social mediea</h3>
+                        <div className='text-2xl text-white mt-4 font-medium uppercase'>
+                           <a href="">Instagram..</a>
+                           <a href=""> Behance..</a><br />
+                           <a href="">Dribbble..</a>
+                           <a href=""> Facebook..</a><br />
+                           <a href="">Twitter..</a>
+                        </div>
+                     </div>
                      <div></div>
                   </div>
                </div>
