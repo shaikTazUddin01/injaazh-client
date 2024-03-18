@@ -5,7 +5,7 @@ import { DiJoomla } from "react-icons/di";
 
 const Award = () => {
     return (
-        <div className='grid grid-cols-2 pt-10 p-7 gap-10'>
+        <div className='grid grid-cols-2 pt-10 pb-[120px] p-7 gap-10'>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
@@ -15,7 +15,11 @@ const Award = () => {
                         </button>
                     
                 </div>
+                
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
+                
             </div>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
@@ -26,7 +30,9 @@ const Award = () => {
                         </button>
                     
                 </div>
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
             </div>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
@@ -37,7 +43,9 @@ const Award = () => {
                         </button>
                     
                 </div>
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
             </div>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
@@ -48,7 +56,9 @@ const Award = () => {
                         </button>
                     
                 </div>
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
             </div>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
@@ -59,7 +69,9 @@ const Award = () => {
                         </button>
                     
                 </div>
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
             </div>
             <div className="text-white">
                 <div className="flex items-center flex-col lg:flex-row justify-between award_section p-10">
@@ -70,7 +82,9 @@ const Award = () => {
                         </button>
                     
                 </div>
+                <div className='px-8'>
                 <div className="custom-divider"></div>
+                </div>
             </div>
             
         </div>
