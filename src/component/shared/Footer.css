@@ -12,3 +12,10 @@
     /* height: 700px; */
     height: full;
 }
+.ping_us{
+height: 400px;
+width: 400px;
+background-color: rgb(208, 208, 3);
+border-radius: 100%;
+margin-left: 70px;
+}
