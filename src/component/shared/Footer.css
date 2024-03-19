@@ -2,7 +2,7 @@
     background-image: url("../../assets/footer_bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 1300px;
+    width: full;
     /* height: full; */
     margin: 0px auto;
     background-size: cover;

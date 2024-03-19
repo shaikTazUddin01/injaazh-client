@@ -12,8 +12,8 @@ const Navbar = () => {
     <li><Link>contact</Link></li>
     </>
     return (
-       <div className="px-10 max-w-[1300px] mx-auto border-b">
-         <div className="navbar bg-black text-white border border-y-0 py-5">
+       <div className="px-10 max-w-[1440px] mx-auto border-b border-[var(--secondary-color)]">
+         <div className="navbar bg-black text-white border border-[var(--secondary-color)] border-y-0 py-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

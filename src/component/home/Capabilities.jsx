@@ -16,8 +16,8 @@ const Capabilities = () => {
   }
  
   return (
-    <div className="max-w-[1300px] mx-auto px-10">
-      <div className="border-x">
+    <div className="max-w-[1440px] mx-auto px-10">
+      <div className="border-x border-[var(--secondary-color)]">
      
         <div className='grid grid-cols-2 gap-10 pt-16 items-center'>
           <div className=' pb-10'>

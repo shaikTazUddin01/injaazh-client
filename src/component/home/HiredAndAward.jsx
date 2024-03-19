@@ -5,10 +5,10 @@ import { BsArrowRight } from "react-icons/bs";
 const HiredAndAward = () => {
     return (
         <div>
-            <div className="max-w-[1300px] mx-auto">
+            <div className="max-w-[1440px] mx-auto">
                 {/* side border */}
                 <div className="px-10 ">
-                    <div className='border-x h-[80px]'>
+                    <div className='border-x h-[80px] border-[var(--secondary-color)]'>
 
                     </div>
                 </div>
@@ -17,8 +17,8 @@ const HiredAndAward = () => {
                     {/* set bg gradient color */}
                     <div className='project_section_gradient '>
                         {/* set side border padding */}
-                        <div className='px-10 '>
-                            <div className='border-x'>
+                        <div className='px-10'>
+                            <div className='border-x border-[var(--secondary-color)]'>
                                 <div className='flex justify-center h-full'>
                                     {/* content div */}
                                     <div className='text-center'>
@@ -43,8 +43,8 @@ const HiredAndAward = () => {
                     </div>
                 </div>
                 <div className="px-10 ">
-                    <div className='border-x min-h-screen'>
-<Award></Award>
+                    <div className='border-x border-[var(--secondary-color)]'>
+                        <Award></Award>
                     </div>
                 </div>
             </div>

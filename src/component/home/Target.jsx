@@ -1,8 +1,8 @@
 import aboutImg from '../../assets/about_img.jpg'
 const Target = () => {
     return (
-        <div className="max-w-[1300px] mx-auto px-10 ">
-            <div className='grid grid-cols-2 border-x'>
+        <div className="max-w-[1440px] mx-auto px-10 ">
+            <div className='grid grid-cols-2 border-x border-[var(--secondary-color)]'>
                 <div className='text-white'>
                     <div role="tablist" className="tabs tabs-bordered">
                         <input type="radio" name="my_tabs_1" role="tab" className="tab text-white inline-block" aria-label=" MISSION" />

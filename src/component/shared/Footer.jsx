@@ -6,8 +6,8 @@ const Footer = () => {
    return (
       <div className='footer_section'>
          <div className="footer_greadint">
-            <div className='max-w-[1300px] mx-auto px-10'>
-               <div className='border-x '>
+            <div className='max-w-[1440px] mx-auto px-10'>
+               <div className='border-x border-[var(--secondary-color)]'>
                   <div className='min-h-[700px] flex justify-between items-center px-8'>
                      <div className='w-[500px] h-[500px] flex justify-center items-center'>
                         <div className='ping_us flex justify-center items-center flex-col'>
@@ -58,7 +58,7 @@ const Footer = () => {
                         </div>
                      </div>
                   </div>
-                  <footer className='border-t flex justify-between p-5'>
+                  <footer className='border-t border-[var(--secondary-color)] flex justify-between p-5'>
                      <div className=' text-[#a3a3a3] text-[16px]'>
                         <p>Copyright © 2024 <span className='text-white text-[17px]'>Injaazh</span>. All rights reserved.
 

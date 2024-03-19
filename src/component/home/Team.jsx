@@ -16,9 +16,9 @@ import './Team.css'
 
 const Team = () => {
     return (
-        <div className="max-w-[1300px] mx-auto ">
+        <div className="max-w-[1440px] mx-auto ">
             <div className="px-10">
-                <div className="border-x">
+                <div className="border-x border-[var(--secondary-color)]">
                     <div className='pt-20 pb-10 text-center'>
                         <Header title={'our team'} subtitle_1st={'professional team'} subtitle_2nd={'behind us'} position={'center'}></Header>
                     </div>
