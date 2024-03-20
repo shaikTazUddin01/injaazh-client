@@ -6,15 +6,15 @@ import HiredAndAward from "../component/home/HiredAndAward";
 import Marquee from "../component/home/Marquee";
 import Target from "../component/home/Target";
 import Team from "../component/home/Team";
-import Testimonial from "../component/home/Testimonial";
+import Achievements from "../component/home/Achievements";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <Target></Target>
-            {/* <CoreService></CoreService> */}
-            {/* <Testimonial></Testimonial> */}
+            <CoreService></CoreService>
+            <Achievements></Achievements>
             {/* <Capabilities></Capabilities> */}
             {/* <Marquee></Marquee> */}
             {/* <Team></Team> */}

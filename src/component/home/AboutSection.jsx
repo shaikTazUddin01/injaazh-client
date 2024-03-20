@@ -7,7 +7,7 @@ const AboutSection = () => {
             <div className='-mt-10 md:-mt-[55px] lg:-mt-[180px] md:pl-8 z-30 md:w-[44%] lg:w-[46%]'>
                 <img src={aboutIcon} alt="" className='w-[60%] md:w-[100%] ' />
             </div>
-            <div className='-mt-16 md:mt-16'>
+            <div className='-mt-16 md:mt-8'>
                 <Header title={'About Injaazh'} subtitle_1st={'CRAFTING DIGITAL '} subtitle_2nd={'EXCELLENCE'}></Header>
             </div>
         </div>
