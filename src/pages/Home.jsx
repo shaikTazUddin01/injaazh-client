@@ -13,13 +13,13 @@ const Home = () => {
         <div>
             <Banner></Banner>
             {/* <AboutSection></AboutSection> */}
-            <Target></Target>
+            {/* <Target></Target>
             <CoreService></CoreService>
             <Testimonial></Testimonial>
             <Capabilities></Capabilities>
             <Marquee></Marquee>
             <Team></Team>
-            <HiredAndAward></HiredAndAward>
+            <HiredAndAward></HiredAndAward> */}
         </div>
     );
 };

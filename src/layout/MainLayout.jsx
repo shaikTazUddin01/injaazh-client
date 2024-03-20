@@ -6,21 +6,20 @@ import { motion } from 'framer-motion';
 
 const MainLayout = () => {
     return (
-        <motion.div 
-    
-                        initial={{y:-1000}}
-                        animate={{y:0}}
-                        transition={{
-                            duration:".2"
+        <motion.div
+            // initial={{ y: -1000 }}
+            // animate={{ y: 0 }}
+            // transition={{
+            //     duration: ".4"
 
-                        }}
+            // }}
         >
             <div>
-                <Navbar></Navbar>
+                {/* <Navbar></Navbar> */}
             </div>
             <Outlet></Outlet>
             <div className='bg-black'>
-            <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
             {/* go to top button */}
             <GoToTop></GoToTop>
