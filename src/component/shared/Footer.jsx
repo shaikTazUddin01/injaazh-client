@@ -5,8 +5,8 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Footer = () => {
    return (
       <div className='footer_section'>
-         <div className="footer_greadint">
-            <div className='max-w-[1440px] mx-auto px-10'>
+         <div className="footer_greadint ">
+            <div className='max-w-[1440px] mx-auto px-10 '>
                <div className='border-x border-[var(--secondary-color)]'>
                   <div className='min-h-[700px] flex justify-between items-center px-8'>
                      <div className='w-[500px] h-[500px] flex justify-center items-center'>
