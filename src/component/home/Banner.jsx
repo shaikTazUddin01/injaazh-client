@@ -59,7 +59,7 @@ const Banner = () => {
 
                 </div>
             </div>
-            <div className='-top-20 max-w-screen-2xl overflow-hidden absolute -z-10'>
+            <div className='top-0 md:-top-20 lg:-top-40 overflow-hidden absolute -z-10'>
                 <img src={f_shape} alt="" className='bg-img2 h-full object-cover' />
             </div>
         </div>
