@@ -19,7 +19,7 @@ const MainLayout = () => {
             </div>
             <Outlet></Outlet>
             <div className='bg-black'>
-                {/* <Footer></Footer> */}
+                <Footer></Footer>
             </div>
             {/* go to top button */}
             <GoToTop></GoToTop>

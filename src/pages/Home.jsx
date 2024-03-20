@@ -12,14 +12,13 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            {/* <AboutSection></AboutSection> */}
-            {/* <Target></Target>
-            <CoreService></CoreService>
-            <Testimonial></Testimonial>
-            <Capabilities></Capabilities>
-            <Marquee></Marquee>
-            <Team></Team>
-            <HiredAndAward></HiredAndAward> */}
+            <Target></Target>
+            {/* <CoreService></CoreService> */}
+            {/* <Testimonial></Testimonial> */}
+            {/* <Capabilities></Capabilities> */}
+            {/* <Marquee></Marquee> */}
+            {/* <Team></Team> */}
+            {/* <HiredAndAward></HiredAndAward> */}
         </div>
     );
 };
