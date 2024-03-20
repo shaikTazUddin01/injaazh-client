@@ -16,15 +16,15 @@ const Capabilities = () => {
   }
  
   return (
-    <div className="max-w-[1440px] mx-auto px-10">
+    <div className="max-w-[1440px] mx-auto px-5 lg:px-10">
       <div className="border-x border-[var(--secondary-color)]">
      
-        <div className='grid grid-cols-2 gap-10 pt-16 items-center'>
-          <div className=' pb-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 pt-16 md:pt-24 lg:pt-16 items-center'>
+          <div className=' md:pb-10'>
             <Header title={"core services"} subtitle_1st={'Discover Oue '} subtitle_2nd={'capabilities'}></Header>
           </div>
           <div>
-            <ul className="uppercase text-[#6f6c6c] flex gap-4 text-xl justify-end font-semibold">
+            <ul className="uppercase text-[#6f6c6c] flex gap-4  text-[16px] md:text-[14px] lg:text-xl justify-center md:justify-end font-semibold pb-10 md:pb-0">
               <li
                 className={activeItem === null ? 'active' : ''}
                 onClick={() => handleItemClick(null)}
@@ -58,7 +58,7 @@ const Capabilities = () => {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-10 cap_images pb-16">
+        <div className="grid grid-cols-2 gap-4 md:gap-10 cap_images pb-16">
           {
             activeItem == null &&
             <> 

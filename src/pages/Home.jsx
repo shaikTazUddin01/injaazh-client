@@ -15,7 +15,7 @@ const Home = () => {
             <Target></Target>
             <CoreService></CoreService>
             <Achievements></Achievements>
-            {/* <Capabilities></Capabilities> */}
+            <Capabilities></Capabilities>
             {/* <Marquee></Marquee> */}
             {/* <Team></Team> */}
             {/* <HiredAndAward></HiredAndAward> */}
