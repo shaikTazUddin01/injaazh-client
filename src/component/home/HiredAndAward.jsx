@@ -7,7 +7,7 @@ const HiredAndAward = () => {
         <div className='bg-black'>
             <div className="max-w-[1440px] mx-auto">
                 {/* side border */}
-                <div className="px-10 ">
+                <div className="px-5 lg:px-10 ">
                     <div className='border-x h-[80px] border-[var(--secondary-color)]'>
 
                     </div>
@@ -17,13 +17,13 @@ const HiredAndAward = () => {
                     {/* set bg gradient color */}
                     <div className='project_section_gradient'>
                         {/* set side border padding */}
-                        <div className='px-10'>
+                        <div className='px-5 lg:px-10'>
                             <div className='border-x border-[var(--secondary-color)]'>
                                 <div className='flex justify-center h-full'>
                                     {/* content div */}
                                     <div className='text-center'>
-                                        <h1 className='text-[115px] font-bold text-white 
-                                        pt-20 pb-16 leading-[110px] tracking-wide'>DO YOU HAVE ANY <br />
+                                        <h1 className='text-3xl md:text-6xl lg:text-[115px] font-bold text-white 
+                                        pt-20 pb-16 md:leading-[80px] lg:leading-[110px] tracking-wide'>DO YOU HAVE ANY <br />
                                             <span className='text-[var(--primary-color)]'>PROJECT?</span></h1>
                                         {/* button */}
                                         <div className='flex justify-center h-[100px] '>
@@ -43,7 +43,7 @@ const HiredAndAward = () => {
                     </div>
                 </div>
                
-                <div className="px-10 bg-black">
+                <div className="px-5 lg:px-10 bg-black">
                     <div className='border-x border-[var(--secondary-color)]'>
                         <Award></Award>
                     </div>

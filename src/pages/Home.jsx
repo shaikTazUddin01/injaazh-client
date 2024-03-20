@@ -16,9 +16,9 @@ const Home = () => {
             <CoreService></CoreService>
             <Achievements></Achievements>
             <Capabilities></Capabilities>
-            {/* <Marquee></Marquee> */}
-            {/* <Team></Team> */}
-            {/* <HiredAndAward></HiredAndAward> */}
+            <Marquee></Marquee>
+            <Team></Team>
+            <HiredAndAward></HiredAndAward>
         </div>
     );
 };
