@@ -15,7 +15,7 @@ const MainLayout = () => {
             // }}
         >
             <div>
-                {/* <Navbar></Navbar> */}
+                <Navbar></Navbar>
             </div>
             <Outlet></Outlet>
             <div className='bg-black'>

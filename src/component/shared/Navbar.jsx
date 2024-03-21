@@ -3,43 +3,33 @@ import menu from '../../assets/menu.svg'
 import logo from '../../assets/logo.svg'
 
 const Navbar = () => {
-    const navItem=<>
+  const navItem = <>
     <li><Link>Home</Link></li>
     <li><Link>Pages</Link></li>
     <li><Link>Portfolio</Link></li>
     <li><Link>shop</Link></li>
     <li><Link>Blog</Link></li>
     <li><Link>contact</Link></li>
-    </>
-    return (
-       <div className="px-10 max-w-[1440px] mx-auto border-b border-[var(--secondary-color)]">
-         <div className="navbar bg-black text-white border border-[var(--secondary-color)] border-y-0 py-5">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 uppercase font-semibold " >
-              {navItem}
-            </ul>
-          </div>
-          <a className="btn btn-ghost text-xl">
-            <img src={logo} alt="" />
-          </a>
+  </>
+  return (
+    <div className="px-5 lg:px-10 max-w-[1440px] mx-auto border-b border-[var(--secondary-color)]">
+      <div className="border-x border-[var(--secondary-color)]">
+      <div className="flex justify-between items-center py-5">
+        <div>
+          <img src={logo} alt="" className="w-[90px]" />
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 uppercase">
+        <div className="hidden lg:flex">
+          <ul className="flex text-white gap-[50px] text-[15px] uppercase font-bold tracking-[2px]">
             {navItem}
           </ul>
         </div>
-        <div className="navbar-end">
-          <div className="bg-[var(--primary-color)] rounded-full p-4">
-          <img src={menu} alt="" className="" />
-          </div>
+        <div className="bg-[var(--primary-color)] p-5 rounded-full">
+          <img src={menu} alt="" />
         </div>
       </div>
-       </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;

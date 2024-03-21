@@ -9,7 +9,7 @@ const Award = () => {
             <div className="text-white bg-black">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>
@@ -24,7 +24,7 @@ const Award = () => {
             <div className="text-white">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <DiJoomla className='text-6xl award-icon'></DiJoomla>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>
@@ -37,7 +37,7 @@ const Award = () => {
             <div className="text-white">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>
@@ -50,7 +50,7 @@ const Award = () => {
             <div className="text-white">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>
@@ -63,7 +63,7 @@ const Award = () => {
             <div className="text-white">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>
@@ -76,7 +76,7 @@ const Award = () => {
             <div className="text-white">
                 <div className="flex items-center flex-col md:flex-row justify-between award_section p-10">
                    <BiLogoSlack className='text-6xl award-icon'></BiLogoSlack>
-                        <h1 className="text-2xl font-medium">2018 Innovition <br /> Excellent Award</h1>
+                        <h1 className="text-2xl font-medium text-center md:text-left py-2 md:py-0">2018 Innovition <br /> Excellent Award</h1>
                         <button className="arrow-btn ">
                             <BsArrowUpRight></BsArrowUpRight>
                         </button>

@@ -1,8 +1,8 @@
 .showbtn {
     position: fixed;
     opacity: 1;
-    bottom: 40px;
-    right: 64px;
+    /* bottom: 40px; */
+    /* right: 64px; */
     transition: opacity 1s;
     transform-origin: center; /* Correct property */
     

@@ -58,14 +58,14 @@ const Footer = () => {
                         </div>
                      </div>
                   </div>
-                  <footer className='border-t border-[var(--secondary-color)] flex justify-between p-5'>
+                  <footer className='border-t border-[var(--secondary-color)] flex flex-col md:flex-row gap-2 justify-between p-5'>
                      <div className=' text-[#a3a3a3] text-[16px]'>
-                        <p>Copyright © 2024 <span className='text-white text-[17px]'>Injaazh</span>. All rights reserved.
+                        <p>Copyright © 2024 <span className='text-white text-[16px] md:text-[17px]'>Injaazh</span>. All rights reserved.
 
                         </p>
                      </div>
                      {/* ----- */}
-                     <div className='flex gap-6 text-lg text-[#a3a3a3]'>
+                     <div className='flex gap-6 text-lg text-[#a3a3a3] text-[15px] md:text-[17px]'>
                     
                               <a href=""><li className='list-none'>Tram and condition</li></a>
                               <a href=""><li className='list-none'>Privacy Policy</li></a>
