@@ -24,7 +24,9 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="px-5 lg:px-10">
+            <div className="border-x border-[var(--secondary-color)]">
+
             <Swiper
                 spaceBetween={20}
                 slidesPerView={4}
@@ -57,6 +59,7 @@ const Team = () => {
                 </SwiperSlide>
 
             </Swiper>
+            </div>
             </div>
         </div>
     );

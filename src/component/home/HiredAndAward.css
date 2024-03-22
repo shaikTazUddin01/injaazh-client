@@ -11,7 +11,7 @@
 } 
 
 .project_section_gradient{
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgb(0, 0, 0));
     /* height: 700px; */
     /* height: 10%; */
     /* background-attachment: fixed; */

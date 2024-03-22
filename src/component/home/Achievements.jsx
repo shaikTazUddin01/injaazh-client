@@ -2,7 +2,8 @@
 import { BsClipboardCheck } from "react-icons/bs";
 const Achievements = () => {
     return (
-        <div className="max-w-[1440px] mx-auto">
+        <div className="bg-[var(--primary-color)]">
+            <div className="max-w-[1440px] mx-auto">
             <div className="bg-[var(--primary-color)]  ">
                 <div className="py-16 px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between gap-10 md:gap-10 lg:gap-0">
                     <div className="flex flex-col md:flex-row items-center gap-5">
@@ -44,6 +45,7 @@ const Achievements = () => {
 
                 </div>
             </div>
+        </div>
         </div>
     );
 };

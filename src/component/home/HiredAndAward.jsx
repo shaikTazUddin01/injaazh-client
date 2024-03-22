@@ -12,11 +12,13 @@ const HiredAndAward = () => {
 
                     </div>
                 </div>
-                {/* set background img */}
-                <div className="project-section bg-black">
-                    {/* set bg gradient color */}
-                    <div className='project_section_gradient'>
-                        {/* set side border padding */}
+            </div>
+            {/* set background img */}
+            <div className="project-section bg-black">
+                {/* set bg gradient color */}
+                <div className='project_section_gradient'>
+                    {/* set side border padding */}
+                    <div className="max-w-[1440px] mx-auto">
                         <div className='px-5 lg:px-10'>
                             <div className='border-x border-[var(--secondary-color)]'>
                                 <div className='flex justify-center h-full'>
@@ -42,14 +44,15 @@ const HiredAndAward = () => {
                         </div>
                     </div>
                 </div>
-               
-                <div className="px-5 lg:px-10 bg-black">
-                    <div className='border-x border-[var(--secondary-color)]'>
-                        <Award></Award>
+                </div>
+
+                <div className="max-w-[1440px] mx-auto">
+                    <div className="px-5 lg:px-10 bg-black">
+                        <div className='border-x border-[var(--secondary-color)]'>
+                            <Award></Award>
+                        </div>
                     </div>
                 </div>
-                
-            </div>
         </div>
 
     );
