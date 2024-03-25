@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import menu from '../../assets/menu.svg'
 import logo from '../../assets/logo.svg'
 import { useState } from "react";
@@ -13,12 +13,12 @@ const Navbar = () => {
 
 
   const navItem = <>
-    <li><Link>Home</Link></li>
-    <li><Link>Pages</Link></li>
-    <li><Link>Portfolio</Link></li>
-    <li><Link>shop</Link></li>
-    <li><Link>Blog</Link></li>
-    <li><Link>contact</Link></li>
+    <li><NavLink>Home</NavLink></li>
+    {/* <li><NavLink>Pages</NavLink></li> */}
+    <li><NavLink to={'/portfolio'}>Portfolio</NavLink></li>
+    {/* <li><NavLink>shop</NavLink></li>
+    <li><NavLink>Blog</NavLink></li>
+    <li><NavLink>contact</NavLink></li> */}
   </>
   return (
     <>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     {navItem}
                   </ul>
                 </div>
-                <div className="bg-[var(--primary-color)] p-5 rounded-full" onClick={() => setOpenNev(true)}>
+                <div className="bg-[var(--primary-color)] p-5 rounded-full cursor-pointer" onClick={() => setOpenNev(true)}>
                   <img src={menu} alt="" />
                 </div>
               </div>
