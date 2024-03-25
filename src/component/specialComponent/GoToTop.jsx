@@ -26,7 +26,7 @@ const GoToTop = () => {
         });
     }
     return (
-        <div className={showScroll >=420?"z-30 showbtn bottom-10 right-[30px] md:right-[64px]":"hide"}>
+        <div className={showScroll >=420?"z-30 showbtn bottom-10 right-7 md:right-[30px] lg:right-[50px]":"hide"}>
             <button className="p-4 bg-[var(--primary-color)] rounded-2xl text-black shadow-md shadow-black" onClick={scrollToTop }>
               <FaArrowUpLong></FaArrowUpLong>
             </button>

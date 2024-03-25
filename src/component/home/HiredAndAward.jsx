@@ -8,7 +8,7 @@ const HiredAndAward = () => {
             <div className="max-w-[1440px] mx-auto">
                 {/* side border */}
                 <div className="px-5 lg:px-10 ">
-                    <div className='border-x h-[80px] border-[var(--secondary-color)]'>
+                    <div className='border-x h-[120px] border-[var(--secondary-color)]'>
 
                     </div>
                 </div>

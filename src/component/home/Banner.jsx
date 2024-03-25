@@ -13,7 +13,7 @@ const Banner = () => {
         <div className='relative z-10 '>
             <div className='px-5 lg:px-10 max-w-[1440px] mx-auto'>
                 <div className='border border-[var(--secondary-color)] border-y-0 py-10 lg:py-16 leading-[110px]'>
-                    <div className='flex justify-between relative'>
+                    <div className='flex justify-between relative '>
                         {/* motion animation */}
                         <div className='leading-[30px] md:leading-none flex-1'>
                             {/* title */}
