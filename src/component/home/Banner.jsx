@@ -8,8 +8,8 @@ import './Banner.css'
 import { motion } from 'framer-motion';
 
 const Banner = () => {
-    return (
 
+    return (
         <div className='relative z-10 '>
             <div className='px-5 lg:px-10 max-w-[1440px] mx-auto'>
                 <div className='border border-[var(--secondary-color)] border-y-0 py-10 lg:py-16 leading-[110px]'>
@@ -46,7 +46,7 @@ const Banner = () => {
                             <img src={shape} alt="" className='h-[30px] md:h-full' />
                         </div>
                     </div>
-{/* banner img */}
+                    {/* banner img */}
                     <div className='relative -mt-[26px] md:-mt-[53px] lg:-mt-[85px] z-10'>
                         <img src={bg01} alt="" className='w-full h-full -z-0 object-cover ' />
                         <div className='absolute h-full w-full z-20 top-0 banner-overlay'>
