@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const Banner = () => {
 
     return (
-        <div className='relative z-10 '>
+        <div className='relative z-20 '>
             <div className='px-5 lg:px-10 max-w-[1440px] mx-auto'>
                 <div className='border border-[var(--secondary-color)] border-y-0 py-10 lg:py-16 leading-[110px]'>
                     <div className='flex justify-between relative '>
@@ -59,7 +59,7 @@ const Banner = () => {
 
                 </div>
             </div>
-            <div className='top-0 md:-top-20 lg:-top-40 overflow-hidden absolute -z-10 wax-w-[1440px]'>
+            <div className='top-0 md:-top-10 lg:-top-10 overflow-hidden absolute -z-10 wax-w-[1440px]'>
                 <img src={f_shape} alt="" className='bg-img2 h-full object-cover' />
             </div>
         </div>

@@ -5,7 +5,7 @@ import GoToTop from '../component/specialComponent/GoToTop';
 import { motion } from 'framer-motion';
 // react icon
 import { MdOutlineClose } from "react-icons/md";
-
+import"./mainlayout.css"
 
 // navicon
 import menuIcon from '../assets/menu.svg'
@@ -18,17 +18,11 @@ const MainLayout = () => {
         }
     };
     const navItem = <>
-        <a href='/'><li>Home</li></a>
-        {/* <li><a>Pages</a></li> */}
-        <a href='/portfolio'><li>Portfolio</li></a>
-        {/* <li><Link>shop</Link></li>
-        <li><Link>Blog</Link></li>
-        <li><Link>contact</Link></li> */}
+        <NavLink to={'/'}><li>Home</li></NavLink>
+        <NavLink to={'portfolio'}><li>Portfolio</li></NavLink>
     </>
 
-    const handle=()=>{
-        console.log("taz uddin")
-    }
+
     return (
 
         <div className="drawer ">
@@ -48,18 +42,17 @@ const MainLayout = () => {
 
                                 <div className="flex-none hidden lg:block w-[80%]">
                                     <ul className="menu menu-horizontal mx-auto text-white text-[15px] uppercase font-bold tracking-[2px] text-center flex justify-center">
-                                        
-                                        <li onClick={handle}><a href='/'>Sidebar Item 1</a></li>
-                                        <li><a href='/portfolio'>Sidebar Item 2</a></li>
-                                        
+
+                                        {navItem}
+
                                     </ul>
-                                        
-                                    
+
+
                                 </div>
 
                                 {/* full screen nav icon */}
                                 <div className='w-[10%] flex justify-end'>
-                                {/* <a href="/portfolio">taz</a> */}
+                                    {/* <a href="/portfolio">taz</a> */}
                                     <div className="bg-[var(--primary-color)] p-5 rounded-full lg:flex hidden" >
                                         <img src={menuIcon} alt="" />
                                     </div>
@@ -82,7 +75,7 @@ const MainLayout = () => {
                 <Outlet></Outlet>
                 <Footer></Footer>
 
-                <GoToTop></GoToTop>
+                {/* <GoToTop></GoToTop> */}
 
 
             </div>

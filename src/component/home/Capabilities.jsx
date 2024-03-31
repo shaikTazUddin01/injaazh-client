@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import './Capabilities.css'
 // images
 import img01 from "../../assets/img_01-1.jpg"
@@ -9,7 +9,7 @@ import Header from "../ReUseAbleHeader/Header";
 
 // import ReactTooltip from ReactTooltip
 import 'react-tooltip/dist/react-tooltip.css'
-import { Tooltip as ReactTooltip } from 'react-tooltip'
+// import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 
 const Capabilities = () => {
@@ -30,31 +30,31 @@ const Capabilities = () => {
           <div>
             <ul className="uppercase text-[#6f6c6c] flex gap-4  text-[14px] md:text-[14px] lg:text-xl justify-center md:justify-end font-semibold pb-10 md:pb-0">
               <li
-                className={activeItem === null ? 'active' : ''}
+                className={activeItem === null ? 'activeItem' : ''}
                 onClick={() => handleItemClick(null)}
               >
                 See all
               </li>
               <li
-                className={activeItem === 0 ? 'active' : ''}
+                className={activeItem === 0 ? 'activeItem' : ''}
                 onClick={() => handleItemClick(0)}
               >
                 app
               </li>
               <li
-                className={activeItem === 1 ? 'active' : ''}
+                className={activeItem === 1 ? 'activeItem' : ''}
                 onClick={() => handleItemClick(1)}
               >
                 branding
               </li>
               <li
-                className={activeItem === 2 ? 'active' : ''}
+                className={activeItem === 2 ? 'activeItem' : ''}
                 onClick={() => handleItemClick(2)}
               >
                 landing
               </li>
               <li
-                className={activeItem === 3 ? 'active' : ''}
+                className={activeItem === 3 ? 'activeItem' : ''}
                 onClick={() => handleItemClick(3)}
               >
                 website

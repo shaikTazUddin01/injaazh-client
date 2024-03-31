@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import menu from '../../assets/menu.svg'
 import logo from '../../assets/logo.svg'
 import { useState } from "react";
@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
   const navItem = <>
-    <li><NavLink>Home</NavLink></li>
+    <li><NavLink to={'/'}>Home</NavLink></li>
     {/* <li><NavLink>Pages</NavLink></li> */}
     <li><NavLink to={'/portfolio'}>Portfolio</NavLink></li>
     {/* <li><NavLink>shop</NavLink></li>

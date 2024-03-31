@@ -1,0 +1,11 @@
+.active {
+    
+    border-bottom: 1px solid green; 
+    padding-bottom: 10px;
+    transition: border-bottom .2s ease-out;
+}
+
+ul li{
+    padding: 10px;
+}
+
